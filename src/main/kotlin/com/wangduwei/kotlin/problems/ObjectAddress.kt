@@ -1,10 +1,6 @@
-package com.wangduwei.kotlin
+package com.wangduwei.kotlin.problems
 
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
 import java.util.concurrent.Executors
-import java.util.concurrent.ThreadPoolExecutor
 
 /**
  * @desc:
@@ -12,7 +8,7 @@ import java.util.concurrent.ThreadPoolExecutor
  * @auther:duwei
  * @date:2019/2/13
  */
-class MainClass {
+class ObjectAddress {
 
     fun objectAdress(){
         val int = System.identityHashCode(this)
@@ -21,7 +17,7 @@ class MainClass {
 
 }
 fun main(){
-    val obj = MainClass()
+    val obj = ObjectAddress()
     val runnable = Runnable{
         obj.objectAdress()
     }
