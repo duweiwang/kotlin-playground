@@ -1,8 +1,8 @@
-package Objects.Delegation
+package com.wangduwei.kotlin.basic.src.Objects.Delegation
 
 //This is a neat little feature being able to automatically assign an object to handle any interface
 
-fun main(args : Array<String>) {
+fun main() {
     var me = BruceWayne(Batman(), RichyRich())
     me.inWater()
     print("Is awesomely rich? " + me.isAwesomelyRich())

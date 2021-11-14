@@ -1,5 +1,8 @@
 package com.wangduwei.kotlin.extension
 
+import java.text.SimpleDateFormat
+import java.util.*
+
 /**
  * @desc: 拓展函数集中营
  * @auther:duwei
@@ -11,7 +14,12 @@ package com.wangduwei.kotlin.extension
  */
 fun String.lastChar(): Char = this[this.length - 1]
 
-
+fun Long.toTimeFormat(): String {
+    val format = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ITALIAN)
+    val calendar = Calendar.getInstance()
+    calendar.timeInMillis = this
+    return format.format(calendar.time)
+}
 
 
 

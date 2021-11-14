@@ -1,4 +1,4 @@
-package Objects.ExtensionProperties
+package com.wangduwei.kotlin.basic.src.Objects.ExtensionProperties
 
 val Amazing.isEmpty : Boolean
     get() = this.name.length == 0

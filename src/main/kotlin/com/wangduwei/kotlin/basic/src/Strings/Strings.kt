@@ -1,6 +1,6 @@
-package Strings
+package com.wangduwei.kotlin.basic.src.Strings
 
-fun main(args : Array<String>) {
+fun main() {
     var plato1 = "Wise men speak because they have something to say; Fools because they have to say something."
 
     //This is a single line string

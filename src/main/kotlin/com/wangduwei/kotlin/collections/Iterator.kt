@@ -1,6 +1,8 @@
 package com.wangduwei.kotlin.collections
 
 /**
+ * 集合遍历的几种方式
+ *
  * @author : wangduwei
  * @date : 2020/4/25
  * @description :
@@ -15,11 +17,11 @@ class Iterator {
         while (numbersIterator.hasNext()) {
             println(numbersIterator.next())
         }
-//2----
+        //2----
         for (item in numbers) {
             println(item)
         }
-//3----
+        //3----
         numbers.forEach {
             println(it)
         }

@@ -1,5 +1,8 @@
-package When
+package com.wangduwei.kotlin.basic.src.When
 
+/**
+ *
+ */
 fun main(args : Array<String>) {
     var x = 101
     val greater = { x : Int -> x > 100 }

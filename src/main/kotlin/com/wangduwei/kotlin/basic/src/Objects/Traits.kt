@@ -1,4 +1,4 @@
-package Objects
+package com.wangduwei.kotlin.basic.src.Objects
 
 // Traits are deprecated; "trait" is not even a keyword anymore. Interfaces FTW.
 // http://blog.jetbrains.com/kotlin/2015/04/upcoming-changes-and-more/

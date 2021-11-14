@@ -1,7 +1,8 @@
-package Variables
+package com.wangduwei.kotlin.basic.src.Variables
 
-//There are two type of variable declarations in kotlin, mutable and immutable.
-//use var declaration for mutable variables and val for immutable variables
+/**
+ * 变量的申明有两种方式，可变和不可变。var 表示可变量。val表示不可变量
+ */
 fun main(args : Array<String>) {
     var message = "var means a mutable variable so you can change it. "
     println("'message' variable has this value '$message'")

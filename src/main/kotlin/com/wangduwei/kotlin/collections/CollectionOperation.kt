@@ -1,15 +1,17 @@
 package com.wangduwei.kotlin.collections
 
 /**
+ * Kotlin通过拓展函数和集合内置函数为集合操作提供便利
+ *
  * @author : wangduwei
  * @date : 2020/4/25
  * @description :
  */
+
+fun main() {
+    CollectionOperation().test5()
+}
 class CollectionOperation {
-
-
-    //Kotlin通过拓展函数和集合内置函数为集合操作提供便利
-
     //操作不改变原来的集合
     fun test() {
         val numbers = listOf("one", "two", "three", "four")
@@ -29,7 +31,7 @@ class CollectionOperation {
     }
 
     //修改集合
-    fun test3(){
+    fun test3() {
         val numbers = mutableListOf("one", "two", "three", "four")
         //排序结果放入新集合
         val sortedNumbers = numbers.sorted()
@@ -60,10 +62,8 @@ class CollectionOperation {
 
     /**
      * fold / reduce
-     *
      * 37
      * 42
-     *
      * 区别是：第一个元素是否会被应用
      */
     fun test5() {
@@ -80,8 +80,27 @@ class CollectionOperation {
     }
 
 
-}
+    /**
+     * filter操作->过滤
+     */
+    fun filterTest() {
+        val list = listOf(1, 2, 3, 4)
+        var result = list.filter {
+            it % 2 == 0
+        }
+        println(result)
+    }
 
-fun main() {
-    CollectionOperation().test5()
+    /**
+     * map操作->
+     */
+    fun mapTest() {
+        val list = listOf(1, 2, 3, 4)
+        var result = list.map {
+            it * it
+        }
+        println(result)
+
+    }
+
 }

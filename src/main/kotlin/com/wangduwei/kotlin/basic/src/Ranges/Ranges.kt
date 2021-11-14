@@ -1,4 +1,4 @@
-package Ranges
+package com.wangduwei.kotlin.basic.src.Ranges
 
 fun main(args : Array<String>) {
     for (i in 1..10)

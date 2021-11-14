@@ -1,6 +1,6 @@
-package Objects.Enums
+package com.wangduwei.kotlin.basic.src.Objects.Enums
 
-fun main(args : Array<String>) {
+fun main() {
     print(Days.MONDAY)
 }
 

@@ -1,4 +1,4 @@
-package Objects.Expressions
+package com.wangduwei.kotlin.basic.src.Objects.Expressions
 
 fun main(args : Array<String>) {
     var alone = object {

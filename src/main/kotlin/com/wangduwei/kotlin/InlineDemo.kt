@@ -1,6 +1,5 @@
 package com.wangduwei.kotlin
 
-import kotlin.math.cos
 import kotlin.system.measureTimeMillis
 
 /**

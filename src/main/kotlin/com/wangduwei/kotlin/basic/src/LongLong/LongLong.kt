@@ -1,4 +1,4 @@
-package LongLong
+package com.wangduwei.kotlin.basic.src.LongLong
 
 class Test {
     private val total : Int
@@ -9,7 +9,7 @@ class Test {
     }
 }
 
-fun main(args : Array<String>) {
+fun main() {
     val test = Test()
     test.print()
 }

@@ -4,9 +4,10 @@ import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 
 /**
+ * Kotlin 的属性代理
+ *
  * @author 杜伟
  * @date 2020/10/10 下午8:49
- *
  */
 class PropertyDelegate {
 
