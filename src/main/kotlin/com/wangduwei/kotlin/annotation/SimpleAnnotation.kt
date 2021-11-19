@@ -1,6 +1,9 @@
 package com.wangduwei.kotlin.annotation
 
 /**
+ *
+ * 演示在类、构造器、方法、字段上添加注解
+ *
  * @author : wangduwei
  * @date : 2020/8/15
  * @description :

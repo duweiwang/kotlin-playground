@@ -1,6 +1,19 @@
-package com.wangduwei.kotlin.basic.src.collections.hashmaps
+package com.wangduwei.kotlin.collections.map
 
-fun main() {
+
+/**
+ * 在Kotlin中使用Map
+ */
+fun main(){
+    val numberMap = mapOf("key1" to 1)
+    val mutableMap = mutableMapOf("one" to "one")
+    val emptyMap = emptyMap<String, String>()
+
+    val numbersMap = mutableMapOf<String, String>().apply {
+        this["one"] = "1"; this["two"] = "2"
+    }
+
+
     val dict = hashMapOf (
             "adam" to "Illionis",
             "bryan" to "Alabama",

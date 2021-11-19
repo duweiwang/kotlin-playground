@@ -1,8 +1,11 @@
-package com.wangduwei.kotlin.basic.src.collections.arrays
+package com.wangduwei.kotlin.collections.array
 
-//Array is low level data structure - only use it when you need to. Consider using ArrayList instead
-fun main(args : Array<String>) {
-    val presidents = arrayOf(Pair("John F", "K"), Pair("Ronald", "Reagan"))
+/**
+ * 在Kotlin中使用Array
+ */
+fun main() {
+    val presidents = arrayOf(Pair("John F", "K"),
+            Pair("Ronald", "Reagan"))
 
     presidents.forEach { println("${it.first} ${it.second}") }
 
