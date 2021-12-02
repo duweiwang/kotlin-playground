@@ -109,7 +109,20 @@ class CollectionOperation {
             it * it
         }
         println(result)
+    }
 
+
+    /**
+     * flatmap 必须返回一个Iterable<R>
+     */
+    fun flatMapTest() {
+        val list = arrayOf(
+                1..10,
+                20..30,
+                50..100
+        )
+
+        val mergeList = list.flatMap { it }
     }
 
 }
