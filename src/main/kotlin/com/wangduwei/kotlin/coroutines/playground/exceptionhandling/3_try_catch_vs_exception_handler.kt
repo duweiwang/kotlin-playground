@@ -2,6 +2,10 @@ package com.wangduwei.kotlin.coroutines.playground.exceptionhandling
 
 import kotlinx.coroutines.*
 
+
+/**
+ * 这种方式可以
+ */
 fun main() {
 
     val exceptionHandler = CoroutineExceptionHandler { coroutineContext, throwable ->

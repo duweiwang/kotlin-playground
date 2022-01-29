@@ -1,4 +1,4 @@
-package com.lukaslechner.coroutineusecasesonandroid.playground.exceptionhandling
+package com.wangduwei.kotlin.coroutines.playground.exceptionhandling
 
 import com.wangduwei.kotlin.coroutines.playground.exceptionhandling.functionThatThrowsIt
 import kotlinx.coroutines.CoroutineExceptionHandler
@@ -6,6 +6,9 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 
+/**
+ * 这种方式也不行
+ */
 fun main() {
 
     val exceptionHandler = CoroutineExceptionHandler { context, exception ->

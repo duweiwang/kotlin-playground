@@ -4,6 +4,9 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 
+/**
+ * 这种方式不能捕获异常
+ */
 fun main() {
 
     val scope = CoroutineScope(Job())
