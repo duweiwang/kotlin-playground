@@ -13,9 +13,12 @@ fun main(){
     val list2 = mutableListOf<Obj>()
     list2.addAll(list1)
 
+    val list3 = list1.toMutableList()
 
     list1[0].v = 2
 
     println("size="+list2[0].v)
 
+
+    println("value = ${list3[0].v}")
 }
